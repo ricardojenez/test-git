@@ -1,5 +1,6 @@
 #!/usr/bin/ruby
 puts 'Hello'
+putl 'hell'
 at_exit do
   if $! # If the program exits due to an exception
     puts 'Exiting'
